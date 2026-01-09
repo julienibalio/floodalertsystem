@@ -1,5 +1,7 @@
 # ESP32 Flood Detection & Alert System (WiFi + GSM)
 
+<video src="floodalertsystemdemo.mp4" controls width="600"></video>
+
 ## Overview
 This project is an **ESP32-based flood detection and alert system** that monitors **low-level and high-level water sensors** and sends real-time alerts using **WiFi (email/webhook)** and **GSM (SMS & voice call)**.
 
