@@ -18,11 +18,11 @@ const int GSM_RX = 26;
 // Target phone numbers for SMS alerts and HIGH CALL alert (first number only)
 // !!! IMPORTANT: REPLACE ALL PLACEHOLDERS WITH YOUR RECIPIENT NUMBERS (include country code) !!!
 const char* SMS_TARGET_NUMBERS[] = {
-    "+639564324153",  // 1. Primary number (THIS NUMBER WILL BE CALLED ON HIGH ALERT)
-    "+639310165386",  // 2. Placeholder - REPLACE ME (SMS only)
-    "+639456114984",  // 3. Placeholder - REPLACE ME (SMS only)
-    "+63",  // 4. Placeholder - REPLACE ME (SMS only)
-    "+"   // 5. Placeholder - REPLACE ME (SMS only)
+    "",  // 1. Primary number (THIS NUMBER WILL BE CALLED ON HIGH ALERT)
+    "",  // 2. Placeholder - REPLACE ME (SMS only)
+    "",  // 3. Placeholder - REPLACE ME (SMS only)
+    "",  // 4. Placeholder - REPLACE ME (SMS only)
+    ""   // 5. Placeholder - REPLACE ME (SMS only)
 };
 const int SMS_TARGET_COUNT = 5; // Total number of recipients
 
@@ -34,12 +34,12 @@ const int lowSensor  = 34;  // Low-level sensor
 const int highSensor = 35;  // High-level sensor
 
 // WiFi credentials
-const char* ssid     = "POCO X7";
-const char* password = "ahhdaddy";
+const char* ssid     = "";
+const char* password = "";
 
 // Webhook URLs (Make.com - General/Email Alerts - uses WiFi)
-const char* LOW_WEBHOOK  = "https://hook.eu2.make.com/uiym49vlq18fxucdafdk8b1c55fhqujg";
-const char* HIGH_WEBHOOK = "https://hook.eu2.make.com/aa5evyzwsa2xch8bcogybvb6dtx33s6g";
+const char* LOW_WEBHOOK  = "";
+const char* HIGH_WEBHOOK = "";
 
 // Thresholds (adjust to your calibration)
 const int LOW_THRESHOLD  = 800;
